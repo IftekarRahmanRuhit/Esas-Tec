@@ -559,8 +559,8 @@ export default function ContactCTA() {
                 <h4 className="text-cyan-400 font-semibold mb-3">📍 Address</h4>
                 <p className="text-slate-300">
                   123 Tech Street, Innovation District<br />
-                  San Francisco, CA 94105<br />
-                  United States
+                  Dhaka, Bangladesh 1200<br />
+                  Bangladesh
                 </p>
               </div>
               <div>

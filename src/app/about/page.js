@@ -1,20 +1,15 @@
+import Banner from '../components/Banner';
+import Ourwork from '../components/Ourwork';
+
 export default function About() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-      {/* Hero Section */}
-      <div className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              About <span className="text-cyan-600">REnova Tech</span>
-            </h1>
-            <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
-              We are a forward-thinking technology company dedicated to transforming businesses through innovative digital solutions.
-            </p>
-          </div>
-        </div>
-      </div>
-
+    <div className="min-h-screen">
+      {/* Hero Banner with Three.js Animation */}
+      <Banner />
+      
+      {/* Our Work Process */}
+      <Ourwork />
+      
       {/* Company Story Section */}
       <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -49,7 +44,7 @@ export default function About() {
       </div>
 
       {/* Values Section */}
-      <div className="py-16 px-4 sm:px-6 lg:px-8">
+      <div className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">Our Values</h2>

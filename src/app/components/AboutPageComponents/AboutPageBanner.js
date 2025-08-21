@@ -182,7 +182,7 @@ export default function AboutPageBanner() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mb-8"
           >
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 rounded-full px-6 py-3">
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 rounded-full px-6 py-3 mt-5">
               <Star className="w-4 h-4 text-cyan-400" />
               <p className="text-cyan-400 text-sm font-semibold uppercase tracking-wider">
                 Leading Digital Innovation Agency
@@ -261,30 +261,7 @@ export default function AboutPageBanner() {
             </button>
           </motion.div>
 
-          {/* Stats Grid */}
-          <motion.div 
-            className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-5xl mx-auto"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 1.4 }}
-          >
-            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300 group hover:scale-105">
-              <div className="text-3xl font-bold mb-2 text-cyan-400 group-hover:scale-110 transition-transform duration-300">500+</div>
-              <div className="text-sm text-slate-300">Projects Delivered</div>
-            </div>
-            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300 group hover:scale-105">
-              <div className="text-3xl font-bold mb-2 text-cyan-400 group-hover:scale-110 transition-transform duration-300">98%</div>
-              <div className="text-sm text-slate-300">Client Satisfaction</div>
-            </div>
-            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300 group hover:scale-105">
-              <div className="text-3xl font-bold mb-2 text-cyan-400 group-hover:scale-110 transition-transform duration-300">10+</div>
-              <div className="text-sm text-slate-300">Years of Excellence</div>
-            </div>
-            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300 group hover:scale-105">
-              <div className="text-3xl font-bold mb-2 text-cyan-400 group-hover:scale-110 transition-transform duration-300">24/7</div>
-              <div className="text-sm text-slate-300">Support Available</div>
-            </div>
-          </motion.div>
+
         </div>
       </div>
     </div>

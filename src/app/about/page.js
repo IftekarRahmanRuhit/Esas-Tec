@@ -1,8 +1,9 @@
-import AboutPageBanner from "../components/AboutPageBanner";
-import OurGenesis from "../components/OurGenesis";
-import OurMission from "../components/OurMission";
-import Principles from "../components/Principles";
-
+import AboutPageBanner from "../components/About_page/AboutPageBanner";
+import OurGenesis from "../components/About_page/OurGenesis";
+import OurMission from "../components/About_page/OurMission";
+import Principles from "../components/About_page/Principles";
+import Technologies from "../components/About_page/Technologies";
+import WhyUss from "../components/About_page/WhyUss";
 export default function About() {
   return (
     <div className="min-h-screen">
@@ -10,6 +11,8 @@ export default function About() {
      <OurGenesis />
      <OurMission />
      <Principles />
+     <Technologies />
+     <WhyUss />
     </div>
   );
 }

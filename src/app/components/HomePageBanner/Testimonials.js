@@ -248,7 +248,7 @@ export default function Testimonials() {
                   className="p-12 lg:p-16"
                 >
                   {/* Quote Icon */}
-                  <div className="absolute top-8 right-8 text-cyan-400/20 text-6xl font-serif">"</div>
+                  <div className="absolute top-8 right-8 text-cyan-400/20 text-6xl font-serif">&ldquo;</div>
                   
                   {/* Content Section */}
                   <div className="grid lg:grid-cols-3 gap-12 items-center">

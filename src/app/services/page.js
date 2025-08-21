@@ -6,7 +6,7 @@ import WhyChooseUs from '../components/ServicesPageComponents/WhyChooseUs'
 
 export default function ServicesPage() {
   return (
-    <div className='min-h-screen"'>
+    <div className='min-h-screen'>
       <ServicesPageBanner />
       <ServicesCard />
       <ProcessSection />

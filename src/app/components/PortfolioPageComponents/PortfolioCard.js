@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function PortfolioCard() {
   const projects = [
@@ -36,11 +37,12 @@ export default function PortfolioCard() {
           {projects.map((project, index) => (
             <div key={index} className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 ease-out group">
               <div className="relative h-80 overflow-hidden">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
-                  loading="lazy"
+                  fill
+                  className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
 

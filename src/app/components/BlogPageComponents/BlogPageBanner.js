@@ -156,24 +156,9 @@ export default function BlogPageBanner() {
   }, []);
 
   const blogCategories = [
-    { 
-      icon: BookOpen, 
-      name: "Technology", 
-      color: "from-cyan-400 to-blue-500",
-      description: "Latest tech insights"
-    },
-    { 
-      icon: PenTool, 
-      name: "Design", 
-      color: "from-blue-400 to-purple-500",
-      description: "Creative design trends"
-    },
-    { 
-      icon: Lightbulb, 
-      name: "Strategy", 
-      color: "from-purple-400 to-pink-500",
-      description: "Business strategies"
-    }
+    { icon: BookOpen, name: "Technology", color: "from-cyan-400 to-blue-500" },
+    { icon: PenTool, name: "Design", color: "from-blue-400 to-purple-500" },
+    { icon: Lightbulb, name: "Strategy", color: "from-purple-400 to-pink-500" }
   ];
 
   return (
@@ -194,126 +179,73 @@ export default function BlogPageBanner() {
 
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          {/* Top Section with Badge and Stats */}
-          <div className="text-center mb-12">
-            {/* Blog Badge */}
-            <motion.div
-              initial={{ opacity: 0, y: -30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="mb-8"
-            >
-              <div className="inline-flex items-center gap-3 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 rounded-full px-8 py-4">
-                <div className="w-3 h-3 bg-cyan-400 rounded-full animate-pulse"></div>
-                <p className="text-cyan-400 text-sm font-semibold uppercase tracking-widest">
-                  OUR BLOG
-                </p>
-                <div className="w-3 h-3 bg-blue-400 rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
-              </div>
-            </motion.div>
-
-            {/* Stats Row */}
-            <motion.div
-              className="flex justify-center items-center gap-8 mb-8"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-            >
-              <div className="text-center">
-                <div className="text-2xl font-bold text-cyan-400">500+</div>
-                <div className="text-sm text-slate-400">Articles Published</div>
-              </div>
-              <div className="w-px h-8 bg-slate-600"></div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-blue-400">50K+</div>
-                <div className="text-sm text-slate-400">Monthly Readers</div>
-              </div>
-              <div className="w-px h-8 bg-slate-600"></div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-purple-400">100+</div>
-                <div className="text-sm text-slate-400">Expert Authors</div>
-              </div>
-            </motion.div>
-          </div>
-
-          {/* Main Content Section */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Left Column - Text Content */}
-            <motion.div
-              className="text-left"
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, delay: 0.6 }}
-            >
-              {/* Main Heading */}
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight text-white">
-                REnova Tech{' '}
-                <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
-                  Insights
-                </span>
-              </h1>
-
-              {/* Subtitle */}
-              <p className="text-lg sm:text-xl lg:text-2xl mb-8 leading-relaxed text-slate-300">
-                Exploring the frontiers of technology, design, and digital strategy. Your source for industry insights and futuristic ideas.
+        <div className="max-w-7xl mx-auto text-center">
+          {/* Blog Badge */}
+          <motion.div
+            initial={{ opacity: 0, y: -30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="mb-8"
+          >
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 rounded-full px-6 py-3">
+              <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+              <p className="text-cyan-400 text-sm font-medium uppercase tracking-wider">
+                OUR BLOG
               </p>
+            </div>
+          </motion.div>
 
-              {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <button className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-lg hover:from-cyan-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg shadow-cyan-500/25 flex items-center justify-center gap-3">
-                  Explore Articles
-                  <BookOpen className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
-                </button>
-                <button className="group px-8 py-4 border-2 border-cyan-400/50 text-cyan-400 font-semibold rounded-lg hover:bg-cyan-400/10 hover:border-cyan-400 transition-all duration-300 flex items-center justify-center gap-3">
-                  Subscribe
-                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                  </svg>
-                </button>
-              </div>
-            </motion.div>
+          {/* Main Heading */}
+          <motion.h1 
+            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-8 leading-tight text-white"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.4 }}
+          >
+            REnova Tech{' '}
+            <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
+              Insights
+            </span>
+          </motion.h1>
 
-            {/* Right Column - Categories */}
-            <motion.div
-              className="space-y-6"
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, delay: 0.8 }}
-            >
-              {blogCategories.map((category, index) => (
-                <motion.div
-                  key={index}
-                  className="group cursor-pointer"
-                  initial={{ opacity: 0, x: 30 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 1.0 + index * 0.1 }}
-                  whileHover={{ x: 10 }}
-                >
-                  <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6 hover:border-cyan-400/40 transition-all duration-300 group-hover:bg-slate-800/70 group-hover:shadow-xl group-hover:shadow-cyan-500/10">
-                    <div className="flex items-center gap-4">
-                      <div className={`w-16 h-16 bg-gradient-to-br ${category.color} rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                        <category.icon className="w-8 h-8 text-white" />
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="text-white text-xl font-bold group-hover:text-cyan-300 transition-colors duration-300 mb-2">
-                          {category.name}
-                        </h3>
-                        <p className="text-slate-400 text-sm group-hover:text-slate-300 transition-colors duration-300">
-                          {category.description}
-                        </p>
-                      </div>
-                      <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                        </svg>
-                      </div>
-                    </div>
+          {/* Subtitle */}
+          <motion.p 
+            className="text-lg sm:text-xl lg:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed text-slate-300"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.6 }}
+          >
+            Exploring the frontiers of technology, design, and digital strategy. Your source for industry insights and futuristic ideas.
+          </motion.p>
+
+          {/* Blog Categories */}
+          <motion.div 
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.8 }}
+          >
+            {blogCategories.map((category, index) => (
+              <motion.div
+                key={index}
+                className="group cursor-pointer"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 1.0 + index * 0.1 }}
+                whileHover={{ y: -5 }}
+              >
+                <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6 hover:border-cyan-400/40 transition-all duration-300 group-hover:bg-slate-800/70">
+                  <div className={`w-12 h-12 bg-gradient-to-br ${category.color} rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                    <category.icon className="w-6 h-6 text-white" />
                   </div>
-                </motion.div>
-              ))}
-            </motion.div>
-          </div>
+                  <h3 className="text-white text-lg font-semibold group-hover:text-cyan-300 transition-colors duration-300">
+                    {category.name}
+                  </h3>
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
+
         </div>
       </div>
     </div>

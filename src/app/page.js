@@ -1,8 +1,8 @@
-import Banner from "./components/Banner";
-import Ourwork from "./components/Ourwork";
-import Services from "./components/services";
-import Testimonials from "./components/Testimonials";
-import ContactCTA from "./components/ContactCTA";
+import Banner from "./components/HomePageBanner/Banner";
+import Ourwork from "./components/HomePageBanner/Ourwork";
+import Services from "./components/HomePageBanner/services";
+import Testimonials from "./components/HomePageBanner/Testimonials";
+import ContactCTA from "./components/HomePageBanner/ContactCTA";
 
 export default function Home() {
   return (

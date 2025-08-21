@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import * as THREE from 'three';
+import { ArrowRight, Star, Award, Users, Zap } from 'lucide-react';
 
 export default function AboutPageBanner() {
   const mountRef = useRef(null);
@@ -181,79 +182,107 @@ export default function AboutPageBanner() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mb-8"
           >
-            <div className="inline-block bg-gradient-to-r from-cyan-400/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 rounded-full px-8 py-3">
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 rounded-full px-6 py-3">
+              <Star className="w-4 h-4 text-cyan-400" />
               <p className="text-cyan-400 text-sm font-semibold uppercase tracking-wider">
-                ⭐ About REnova Tech
+                Leading Digital Innovation Agency
               </p>
             </div>
           </motion.div>
 
           {/* Main Heading */}
           <motion.h1 
-            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight text-white"
+            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-8 leading-tight text-white"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            Engineering the Future of{' '}
+            Transforming Ideas Into{' '}
             <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
-              Digital Innovation
+              Digital Excellence
             </span>
           </motion.h1>
 
-          {/* Description */}
-          <motion.p 
-            className="text-lg sm:text-xl lg:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed text-slate-300"
+          {/* Subtitle */}
+          <motion.h2 
+            className="text-xl sm:text-2xl lg:text-3xl mb-8 font-medium text-slate-300"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
-            We are more than a digital agency; we are architects of the future, crafting intelligent and immersive web experiences that drive growth and inspire innovation.
-          </motion.p>
+            Where Innovation Meets Implementation
+          </motion.h2>
 
-          {/* Additional Description */}
+          {/* Description */}
           <motion.p 
-            className="text-base sm:text-lg mb-12 max-w-3xl mx-auto text-slate-400"
+            className="text-lg sm:text-xl lg:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed text-slate-300"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.8 }}
           >
-            With cutting-edge technology and creative expertise, we transform ideas into powerful digital solutions that connect, engage, and deliver exceptional results.
+            We are a premier digital agency that specializes in creating cutting-edge web solutions, 
+            mobile applications, and digital experiences that drive business growth and exceed expectations.
           </motion.p>
+
+          {/* Key Benefits */}
+          <motion.div 
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 max-w-5xl mx-auto"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 1.0 }}
+          >
+            <div className="flex items-center justify-center gap-3 p-4 rounded-xl backdrop-blur-sm bg-slate-800/30 border border-slate-700/30">
+              <Zap className="w-6 h-6 text-cyan-400" />
+              <span className="text-slate-300 font-medium">Lightning Fast Development</span>
+            </div>
+            <div className="flex items-center justify-center gap-3 p-4 rounded-xl backdrop-blur-sm bg-slate-800/30 border border-slate-700/30">
+              <Award className="w-6 h-6 text-cyan-400" />
+              <span className="text-slate-300 font-medium">Award-Winning Quality</span>
+            </div>
+            <div className="flex items-center justify-center gap-3 p-4 rounded-xl backdrop-blur-sm bg-slate-800/30 border border-slate-700/30">
+              <Users className="w-6 h-6 text-cyan-400" />
+              <span className="text-slate-300 font-medium">Expert Team Support</span>
+            </div>
+          </motion.div>
 
           {/* CTA Buttons */}
           <motion.div 
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16"
+            className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 1 }}
+            transition={{ duration: 1, delay: 1.2 }}
           >
-            <button className="px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:from-cyan-600 hover:to-blue-700 shadow-lg shadow-cyan-500/25">
-              Explore Our Work
+            <button className="group px-10 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:from-cyan-600 hover:to-blue-700 shadow-lg shadow-cyan-500/25 flex items-center gap-3">
+              Start Your Project
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
-            <button className="px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900">
-              Meet Our Team
+            <button className="px-10 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900">
+              View Our Portfolio
             </button>
           </motion.div>
 
           {/* Stats Grid */}
           <motion.div 
-            className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
+            className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-5xl mx-auto"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 1.2 }}
+            transition={{ duration: 1, delay: 1.4 }}
           >
-            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300">
-              <div className="text-3xl font-bold mb-2 text-cyan-400">500+</div>
+            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300 group hover:scale-105">
+              <div className="text-3xl font-bold mb-2 text-cyan-400 group-hover:scale-110 transition-transform duration-300">500+</div>
               <div className="text-sm text-slate-300">Projects Delivered</div>
             </div>
-            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300">
-              <div className="text-3xl font-bold mb-2 text-cyan-400">98%</div>
+            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300 group hover:scale-105">
+              <div className="text-3xl font-bold mb-2 text-cyan-400 group-hover:scale-110 transition-transform duration-300">98%</div>
               <div className="text-sm text-slate-300">Client Satisfaction</div>
             </div>
-            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300">
-              <div className="text-3xl font-bold mb-2 text-cyan-400">10+</div>
+            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300 group hover:scale-105">
+              <div className="text-3xl font-bold mb-2 text-cyan-400 group-hover:scale-110 transition-transform duration-300">10+</div>
               <div className="text-sm text-slate-300">Years of Excellence</div>
+            </div>
+            <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300 group hover:scale-105">
+              <div className="text-3xl font-bold mb-2 text-cyan-400 group-hover:scale-110 transition-transform duration-300">24/7</div>
+              <div className="text-sm text-slate-300">Support Available</div>
             </div>
           </motion.div>
         </div>
@@ -261,4 +290,5 @@ export default function AboutPageBanner() {
     </div>
   );
 }
+
 

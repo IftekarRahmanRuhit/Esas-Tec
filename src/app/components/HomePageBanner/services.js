@@ -207,6 +207,66 @@ export default function Services() {
               </Link>
             </div>
           </motion.div>
+
+          {/* Graphic Design */}
+          <motion.div
+            className="group h-full"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+            viewport={{ once: true }}
+            whileHover={{ y: -10 }}
+          >
+            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 h-full hover:border-cyan-400/50 transition-all duration-300 group-hover:bg-slate-800/70 flex flex-col">
+              {/* Icon */}
+              <div className="w-16 h-16 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z" />
+                </svg>
+              </div>
+              
+              {/* Content */}
+              <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-cyan-400 transition-colors duration-300">
+                Graphic Design
+              </h3>
+              <p className="text-slate-300 leading-relaxed mb-6">
+                Creating stunning visual designs that capture attention and communicate your brand message effectively.
+              </p>
+
+              {/* Features List */}
+              <ul className="space-y-2 mb-8 flex-grow">
+                <li className="flex items-center text-slate-300 text-sm">
+                  <svg className="w-4 h-4 text-cyan-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Logo Design
+                </li>
+                <li className="flex items-center text-slate-300 text-sm">
+                  <svg className="w-4 h-4 text-cyan-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Brand Identity
+                </li>
+                <li className="flex items-center text-slate-300 text-sm">
+                  <svg className="w-4 h-4 text-cyan-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Marketing Materials
+                </li>
+              </ul>
+
+              {/* CTA Button */}
+              <Link href="/book-meeting" className="mt-auto">
+                <motion.button 
+                  className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/25"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  Book a Meeting →
+                </motion.button>
+              </Link>
+            </div>
+          </motion.div>
         </div>
 
         {/* Bottom CTA Section */}

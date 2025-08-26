@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import * as THREE from 'three';
-import { ArrowRight, Code, Smartphone, Palette, Database, Cloud, Zap } from 'lucide-react';
+import { ArrowRight, Code, Smartphone, Palette, Database, Image } from 'lucide-react';
 
 export default function ServicesPageBanner() {
   const mountRef = useRef(null);
@@ -89,8 +89,7 @@ export default function ServicesPageBanner() {
     shapes.push(createShape(new THREE.SphereGeometry(1.8, 16, 16), serviceColors[1], 1.1)); // Mobile Apps
     shapes.push(createShape(new THREE.TorusGeometry(1.5, 0.3, 16, 32), serviceColors[2], 1.3)); // UI/UX
     shapes.push(createShape(new THREE.OctahedronGeometry(1.4), serviceColors[3], 1.0)); // Database
-    shapes.push(createShape(new THREE.TetrahedronGeometry(1.6), serviceColors[4], 1.1)); // Cloud
-    shapes.push(createShape(new THREE.IcosahedronGeometry(1.2), serviceColors[5], 0.9)); // DevOps
+    shapes.push(createShape(new THREE.TetrahedronGeometry(1.6), serviceColors[4], 1.1)); // Graphic Design
 
     shapes.forEach(shape => scene.add(shape));
 
@@ -154,8 +153,7 @@ export default function ServicesPageBanner() {
     { icon: Smartphone, name: "Mobile Apps", color: "from-blue-400 to-purple-500" },
     { icon: Palette, name: "UI/UX Design", color: "from-purple-400 to-pink-500" },
     { icon: Database, name: "Database Solutions", color: "from-green-400 to-emerald-500" },
-    { icon: Cloud, name: "Cloud Services", color: "from-orange-400 to-red-500" },
-    { icon: Zap, name: "DevOps & CI/CD", color: "from-yellow-400 to-orange-500" }
+    { icon: Image, name: "Graphic Design", color: "from-orange-400 to-red-500" }
   ];
 
   return (
@@ -228,7 +226,7 @@ export default function ServicesPageBanner() {
 
           {/* Services Grid */}
           <motion.div 
-            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-16 max-w-6xl mx-auto"
+            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-16 max-w-4xl mx-auto"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.0 }}

@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
     {
       name: "Sarah Johnson",
       role: "CEO, TechStart Inc.",
-      content: "REnova Tech transformed our vision into a powerful digital platform. Their expertise and dedication exceeded our expectations.",
+              content: "Esas Tec transformed our vision into a powerful digital platform. Their expertise and dedication exceeded our expectations.",
       rating: 5
     },
     {

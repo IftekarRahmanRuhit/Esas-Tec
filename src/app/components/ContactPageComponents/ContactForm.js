@@ -146,10 +146,10 @@ export default function ContactForm() {
                       <h3 className="text-white font-semibold text-lg mb-1">Email Us</h3>
                       <p className="text-slate-300 text-sm mb-2">Our team is here to help.</p>
                       <a 
-                        href="mailto:info@renova-tech.com" 
+                        href="mailto:info@esas-tec.com" 
                         className="text-cyan-400 hover:text-cyan-300 transition-colors duration-300 font-medium"
                       >
-                        info@renova-tech.com
+                        info@esas-tec.com
                       </a>
                     </div>
                   </motion.div>
@@ -168,12 +168,12 @@ export default function ContactForm() {
                       <h3 className="text-white font-semibold text-lg mb-1">Our Website</h3>
                       <p className="text-slate-300 text-sm mb-2">Explore our digital presence.</p>
                       <a 
-                        href="https://renova-tech.com" 
+                        href="https://esas-tec.com" 
                         className="text-cyan-400 hover:text-cyan-300 transition-colors duration-300 font-medium"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        renova-tech.com
+                        esas-tec.com
                       </a>
                     </div>
                   </motion.div>

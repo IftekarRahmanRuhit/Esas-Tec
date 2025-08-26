@@ -7,7 +7,7 @@ import { ChevronDown } from "lucide-react";
 export default function FrequentlyAskedQuestions() {
   const faqData = [
     {
-      title: "What services does REnova Tech offer?",
+              title: "What services does Esas Tec offer?",
       description: "We offer comprehensive digital solutions including web development, mobile applications, UI/UX design, database solutions, cloud services, and DevOps & CI/CD. Our team specializes in creating cutting-edge digital experiences that drive business growth.",
     },
     {

@@ -89,9 +89,9 @@ export default function Footer() {
             >
               <div className="flex items-center space-x-3 mb-6">
                 <div className="w-10 h-10 bg-cyan-400 rounded-md flex items-center justify-center">
-                  <span className="text-slate-900 font-bold text-lg">RT</span>
+                  <span className="text-slate-900 font-bold text-lg">ET</span>
                 </div>
-                <span className="text-cyan-400 font-semibold text-xl">REnova Tech</span>
+                <span className="text-cyan-400 font-semibold text-xl">Esas Tec</span>
               </div>
               <p className="text-slate-300 mb-6 leading-relaxed">
                 Transforming ideas into digital reality with cutting-edge technology solutions. 
@@ -209,7 +209,7 @@ export default function Footer() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="text-slate-400 text-sm">
-                © {currentYear} REnova Tech. All rights reserved.
+                © {currentYear} Esas Tec. All rights reserved.
               </div>
               <div className="flex space-x-6">
                 {footerLinks.legal.map((link) => (

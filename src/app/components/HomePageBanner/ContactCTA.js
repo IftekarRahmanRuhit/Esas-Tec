@@ -15,8 +15,8 @@ export default function ContactCTA() {
       icon: "📧",
       title: "Email Us",
       description: "Get in touch via email",
-      action: "hello@renovatech.com",
-      link: "mailto:hello@renovatech.com",
+              action: "hello@esastec.com",
+        link: "mailto:hello@esastec.com",
       color: "from-emerald-400 to-teal-500",
       bgColor: "from-emerald-400/20 to-teal-500/20"
     },

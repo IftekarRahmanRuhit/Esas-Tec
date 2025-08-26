@@ -153,7 +153,7 @@ export default function Banner() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
             Welcome to{' '}
             <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              REnova Tech
+              Esas Tec
             </span>
           </h1>
 

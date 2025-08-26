@@ -4,6 +4,11 @@ import Services from "./components/HomePageBanner/services";
 import Testimonials from "./components/HomePageBanner/Testimonials";
 import ContactCTA from "./components/HomePageBanner/ContactCTA";
 
+export const metadata = {
+  title: "Esas Tec | Home",
+  description: "Professional technology solutions company specializing in web development, mobile applications, UI/UX design, and digital transformation services.",
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen">

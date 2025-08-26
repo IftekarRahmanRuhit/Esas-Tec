@@ -1,8 +1,8 @@
-# 🚀 REnova Tech - Professional Technology Solutions Website
+# 🚀 Esas Tec - Professional Technology Solutions Website
 
-A modern, responsive website for REnova Tech, a professional technology solutions company. Built with Next.js 15, React 19, and featuring stunning Three.js animations, this website showcases the company's services, portfolio, and client testimonials.
+A modern, responsive website for Esas Tec, a professional technology solutions company. Built with Next.js 15, React 19, and featuring stunning Three.js animations, this website showcases the company's services, portfolio, and client testimonials.
 
-![REnova Tech](https://img.shields.io/badge/Next.js-15.5.0-black?style=for-the-badge&logo=next.js)
+![Esas Tec](https://img.shields.io/badge/Next.js-15.5.0-black?style=for-the-badge&logo=next.js)
 ![React](https://img.shields.io/badge/React-19.1.0-blue?style=for-the-badge&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![Three.js](https://img.shields.io/badge/Three.js-0.179.1-000000?style=for-the-badge&logo=three.js)
@@ -68,8 +68,8 @@ A modern, responsive website for REnova Tech, a professional technology solution
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/renova-tech.git
-   cd renova-tech
+   git clone https://github.com/your-username/esas-tec.git
+   cd esas-tec
    ```
 
 2. **Install dependencies**
@@ -111,7 +111,7 @@ No environment variables required for basic functionality.
 ## 📁 Project Structure
 
 ```
-renova-tech/
+esas-tec/
 ├── public/                          # Static assets
 │   ├── favicon.png                  # Website favicon
 │   ├── file.svg                     # File icon
@@ -243,9 +243,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For support and questions:
-- **Email**: info@renova-tech.com
-- **Website**: [renova-tech.com](https://renova-tech.com)
-- **Issues**: [GitHub Issues](https://github.com/your-username/renova-tech/issues)
+- **Email**: info@esas-tec.com
+- **Website**: [esas-tec.com](https://esas-tec.com)
+- **Issues**: [GitHub Issues](https://github.com/your-username/esas-tec/issues)
 
 ## 🙏 Acknowledgments
 
@@ -257,6 +257,6 @@ For support and questions:
 
 ---
 
-**Built with ❤️ by REnova Tech Team**
+**Built with ❤️ by Esas Tec Team**
 
 *Transforming ideas into digital reality*

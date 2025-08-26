@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "REnova Tech",
-  description: "REnova Tech",
+  title: "Esas Tec - Professional Technology Solutions",
+  description: "Esas Tec is a leading technology solutions company specializing in web development, mobile applications, UI/UX design, and digital transformation services.",
   icons: {
     icon: '/favicon.png',
     shortcut: '/favicon.png',

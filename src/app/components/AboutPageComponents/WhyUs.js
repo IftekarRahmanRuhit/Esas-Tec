@@ -75,7 +75,7 @@ export default function WhyUs() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent mb-8">
-            Why Partner with REnova Tech?
+            Why Partner with Esas Tec?
           </h2>
           <p className="text-gray-300 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed mb-8">
             Choosing the right digital partner is crucial for success. We blend deep technical excellence 

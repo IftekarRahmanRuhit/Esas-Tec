@@ -202,7 +202,7 @@ export default function BlogPageBanner() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            REnova Tech{' '}
+            Esas Tec{' '}
             <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
               Insights
             </span>

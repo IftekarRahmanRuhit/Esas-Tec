@@ -71,7 +71,7 @@ export default function OurGenesis() {
             {/* Company Story */}
             <div className="space-y-6 text-slate-300 leading-relaxed">
               <p className="text-lg">
-                At <span className="text-cyan-400 font-semibold">REnova Tech</span>, we merge cutting-edge technology with creative design to create digital experiences that transcend the ordinary.
+                At <span className="text-cyan-400 font-semibold">Esas Tec</span>, we merge cutting-edge technology with creative design to create digital experiences that transcend the ordinary.
               </p>
               
               <p className="text-lg">
@@ -194,7 +194,7 @@ export default function OurGenesis() {
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                   </svg>
                 </div>
-                <h3 className="text-cyan-400 font-bold text-xl tracking-wider">RENOVA TECH</h3>
+                <h3 className="text-cyan-400 font-bold text-xl tracking-wider">ESAS TEC</h3>
               </div>
             </div>
 

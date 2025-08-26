@@ -178,7 +178,7 @@ export default function Loading() {
             transition={{ duration: 1, delay: 1 }}
             className="mt-12 text-slate-500 text-sm"
           >
-            <p>REnova Tech</p>
+            <p>Esas Tec</p>
             <p className="text-xs mt-1">Transforming ideas into digital reality</p>
           </motion.div>
         </div>

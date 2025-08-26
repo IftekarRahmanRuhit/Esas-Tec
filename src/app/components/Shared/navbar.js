@@ -74,7 +74,7 @@ export default function Navbar() {
               {/* Brand Name */}
               <div className="flex flex-col">
                 <span className="text-cyan-400 font-bold text-xl tracking-tight">
-                  REnova Tech
+                  Esas Tec
                 </span>
                 <span className="text-slate-400 text-xs font-medium tracking-wider">
                   Technology Solutions

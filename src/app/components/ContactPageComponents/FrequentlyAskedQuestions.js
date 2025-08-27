@@ -131,9 +131,9 @@ export default function FrequentlyAskedQuestions() {
             <p className="text-slate-300 mb-6">
               Still have questions? We&apos;re here to help!
             </p>
-            <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-lg hover:from-cyan-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg shadow-cyan-500/25">
+            <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-lg hover:from-cyan-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg shadow-cyan-500/25">
               Contact Our Team
-            </button>
+            </a>
           </motion.div>
         </div>
       </div>

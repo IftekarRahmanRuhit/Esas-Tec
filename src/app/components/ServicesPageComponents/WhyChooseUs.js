@@ -201,13 +201,13 @@ export default function WhyChooseUs() {
               Join hundreds of satisfied clients who have transformed their businesses with our innovative digital solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 flex items-center gap-3">
+              <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer" className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 flex items-center gap-3">
                 Get Started Today
                 <CheckCircle className="w-5 h-5" />
-              </button>
-              <button className="px-8 py-4 border-2 border-cyan-400 text-cyan-400 font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 hover:bg-cyan-400 hover:text-slate-900">
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border-2 border-cyan-400 text-cyan-400 font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 hover:bg-cyan-400 hover:text-slate-900">
                 View Case Studies
-              </button>
+              </a>
             </div>
           </div>
         </motion.div>

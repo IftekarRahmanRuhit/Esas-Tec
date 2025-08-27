@@ -192,13 +192,13 @@ export default function ProcessSection() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button className="group px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/25 flex items-center gap-3">
+                <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer" className="group px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/25 flex items-center gap-3">
                   Start Your Project
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform duration-300" />
-                </button>
-                <button className="px-10 py-5 border-2 border-cyan-400 text-cyan-400 font-semibold rounded-2xl transition-all duration-300 transform hover:scale-105 hover:bg-cyan-400 hover:text-slate-900">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer" className="px-10 py-5 border-2 border-cyan-400 text-cyan-400 font-semibold rounded-2xl transition-all duration-300 transform hover:scale-105 hover:bg-cyan-400 hover:text-slate-900">
                   Schedule Consultation
-                </button>
+                </a>
               </div>
             </div>
           </div>

@@ -76,7 +76,7 @@ export default function Services() {
               </ul>
 
               {/* CTA Button */}
-              <Link href="/book-meeting" className="mt-auto">
+              <Link href="https://www.facebook.com/profile.php?id=61579740698712" className="mt-auto">
                 <motion.button 
                   className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/25"
                   whileHover={{ scale: 1.02 }}
@@ -136,7 +136,7 @@ export default function Services() {
               </ul>
 
               {/* CTA Button */}
-              <Link href="/book-meeting" className="mt-auto">
+              <Link href="https://www.facebook.com/profile.php?id=61579740698712" className="mt-auto">
                 <motion.button 
                   className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/25"
                   whileHover={{ scale: 1.02 }}
@@ -196,7 +196,7 @@ export default function Services() {
               </ul>
 
               {/* CTA Button */}
-              <Link href="/book-meeting" className="mt-auto">
+              <Link href="https://www.facebook.com/profile.php?id=61579740698712" className="mt-auto">
                 <motion.button 
                   className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/25"
                   whileHover={{ scale: 1.02 }}
@@ -256,7 +256,7 @@ export default function Services() {
               </ul>
 
               {/* CTA Button */}
-              <Link href="/book-meeting" className="mt-auto">
+              <Link href="https://www.facebook.com/profile.php?id=61579740698712" className="mt-auto">
                 <motion.button 
                   className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/25"
                   whileHover={{ scale: 1.02 }}

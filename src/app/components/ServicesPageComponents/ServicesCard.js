@@ -179,10 +179,10 @@ export default function ServicesCard() {
 
                  {/* CTA Button */}
                  <div className="relative mt-auto">
-                   <button className={`group/btn w-full bg-gradient-to-r ${service.gradient} text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 flex items-center justify-center gap-3`}>
+                   <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer" className={`group/btn w-full bg-gradient-to-r ${service.gradient} text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 flex items-center justify-center gap-3`}>
                      Book a Meeting
                      <ArrowRight className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform duration-300" />
-                   </button>
+                   </a>
                  </div>
 
                 {/* Hover Border Effect */}
@@ -208,10 +208,10 @@ export default function ServicesCard() {
               Let&apos;s discuss how we can transform your ideas into powerful digital solutions that drive results.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 flex items-center gap-3">
+              <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer" className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 flex items-center gap-3">
                 Get Free Consultation
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-              </button>
+              </a>
               <button className="px-8 py-4 border-2 border-cyan-400 text-cyan-400 font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 hover:bg-cyan-400 hover:text-slate-900">
                 View Our Portfolio
               </button>

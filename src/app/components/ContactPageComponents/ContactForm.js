@@ -168,7 +168,7 @@ export default function ContactForm() {
                       <h3 className="text-white font-semibold text-lg mb-1">Our Website</h3>
                       <p className="text-slate-300 text-sm mb-2">Explore our digital presence.</p>
                       <a 
-                        href="https://esas-tec.com" 
+                        href="https://esas-tec.netlify.app" 
                         className="text-cyan-400 hover:text-cyan-300 transition-colors duration-300 font-medium"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -190,7 +190,7 @@ export default function ContactForm() {
                     </div>
                     <div>
                       <h3 className="text-white font-semibold text-lg mb-1">Our Location</h3>
-                      <p className="text-slate-300 text-sm mb-1">San Francisco, CA, USA</p>
+                      <p className="text-slate-300 text-sm mb-1">Dhaka, Bangladesh</p>
                       <p className="text-slate-400 text-xs">(Serving Clients Worldwide)</p>
                     </div>
                   </motion.div>

@@ -202,13 +202,16 @@ export default function Ourwork() {
           <p className="text-slate-300 text-lg mb-8">
             Ready to transform your ideas into powerful software solutions?
           </p>
-          <motion.button 
-            className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/25"
+          <motion.a 
+            href="https://www.facebook.com/profile.php?id=61579740698712"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/25 inline-block"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             Start Your Project
-          </motion.button>
+          </motion.a>
         </motion.div>
       </div>
     </div>

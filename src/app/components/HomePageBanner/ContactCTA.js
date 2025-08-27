@@ -271,14 +271,17 @@ export default function ContactCTA() {
                   </div>
                   
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <motion.button 
+                    <motion.a 
+                      href="https://www.facebook.com/profile.php?id=61579740698712"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-10 py-5 rounded-2xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/25 flex items-center space-x-3"
                       whileHover={{ scale: 1.05, y: -2 }}
                       whileTap={{ scale: 0.95 }}
                     >
                       <span>📅</span>
                       <span>Schedule Free Session</span>
-                    </motion.button>
+                    </motion.a>
                     <motion.button 
                       className="border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 px-10 py-5 rounded-2xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-3"
                       whileHover={{ scale: 1.05, y: -2 }}

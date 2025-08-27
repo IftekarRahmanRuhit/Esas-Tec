@@ -109,11 +109,11 @@ export default function Navbar() {
             ))}
             
             {/* CTA Button */}
-            <Link href="/book-meeting">
+            <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer">
               <button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-6 py-2 rounded-lg text-sm font-medium transition-all duration-200 shadow-lg shadow-cyan-500/25">
                 Book Meeting
               </button>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -154,11 +154,11 @@ export default function Navbar() {
               ))}
               
               <div className="pt-4">
-                <Link href="/book-meeting" onClick={() => setIsMenuOpen(false)}>
+                <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
                   <button className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-6 py-3 rounded-lg text-sm font-medium transition-all duration-200 shadow-lg shadow-cyan-500/25">
                     Book Meeting
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

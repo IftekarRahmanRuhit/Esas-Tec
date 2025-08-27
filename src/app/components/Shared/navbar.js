@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
@@ -64,13 +65,18 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo and Brand */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-3 group">
-              {/* Professional Logo */}
-              <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center shadow-lg">
-                <svg className="w-6 h-6 text-slate-900" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-                </svg>
-              </div>
+                                                                                                       <Link href="/" className="flex items-center space-x-2 group">
+                             {/* Professional Logo */}
+               <div className="w-16 h-16 rounded-xl flex items-center justify-center shadow-xl overflow-hidden  ">
+                 <Image 
+                   src="/logo.png" 
+                   alt="Esas Tec Logo" 
+                   width={64} 
+                   height={64} 
+                   className="w-full h-full object-contain p-1"
+                   priority
+                 />
+               </div>
               {/* Brand Name */}
               <div className="flex flex-col">
                 <span className="text-cyan-400 font-bold text-xl tracking-tight">

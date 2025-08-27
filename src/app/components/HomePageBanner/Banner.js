@@ -169,18 +169,18 @@ export default function Banner() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:from-cyan-600 hover:to-blue-700 shadow-lg shadow-cyan-500/25">
+            <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:from-cyan-600 hover:to-blue-700 shadow-lg shadow-cyan-500/25">
               Get Started
-            </button>
-            <button className="px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61579740698712" target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900">
               Learn More
-            </button>
+            </a>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700">
-              <div className="text-3xl font-bold mb-2 text-cyan-400">500+</div>
+              <div className="text-3xl font-bold mb-2 text-cyan-400">80+</div>
               <div className="text-sm text-slate-300">Projects Completed</div>
             </div>
             <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700">
@@ -188,7 +188,7 @@ export default function Banner() {
               <div className="text-sm text-slate-300">Happy Clients</div>
             </div>
             <div className="text-center p-6 rounded-xl backdrop-blur-sm bg-slate-800/50 border border-slate-700">
-              <div className="text-3xl font-bold mb-2 text-cyan-400">10+</div>
+              <div className="text-3xl font-bold mb-2 text-cyan-400">3+</div>
               <div className="text-sm text-slate-300">Years Experience</div>
             </div>
           </div>
